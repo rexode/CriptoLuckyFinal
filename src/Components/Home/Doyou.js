@@ -30,7 +30,7 @@ export default function Doyou() {
                       <Button
                         color="primary"
                         variant="contained"
-                        href={Whitepaper}
+                        onClick={() => window.open(Whitepaper)}
                         className="Whitepaper"
                       >
                         Whitepaper
