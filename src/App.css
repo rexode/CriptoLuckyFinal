@@ -1,0 +1,20 @@
+.line-aftr{
+    position: relative;
+}
+.line-aftr::after {
+    content: '';
+    border-right: 3px solid #D710FF;
+    height: 107px;
+    top: 12px;
+    right: -25px;
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+    .line-aftr::after {
+        border-right: unset;
+    }
+    
+  }
+  
