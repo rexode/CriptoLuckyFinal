@@ -202,7 +202,7 @@ export const Homestyle = styled("div")(({ theme }) => ({
     zIndex: -1,
   },
   "& .aboutsidebr": {
-    right: "-30px",
+    right: 0,
     position: "absolute",
     top: " -154px",
     zIndex: -1,
