@@ -29,6 +29,7 @@ export default function ButtonAppBar() {
                     <Button
                       color="primary"
                       onClick={() => window.open(Whitepaper)}
+                      style={{ color: "grey" }} disabled
                     >
                       About
                     </Button>

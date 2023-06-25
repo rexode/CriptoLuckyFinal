@@ -30,18 +30,6 @@ export default function Doyou() {
                       <Button
                         color="primary"
                         variant="contained"
-                        onClick={() => window.open(Whitepaper)}
-                        className="Whitepaper"
-                      >
-                        Whitepaper
-                      </Button>
-                    </Box>
-                  </Grid>
-                  <Grid item xs={6} sm={6} md={4}>
-                    <Box textAlign="center">
-                      <Button
-                        color="primary"
-                        variant="contained"
                         className="twitter"
                         href="https://twitter.com/criptoluckyreal"
                       >

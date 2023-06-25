@@ -44,7 +44,7 @@ export default function TemporaryDrawer() {
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
-          <ListItemButton onClick={() => window.open(Whitepaper)}>
+          <ListItemButton onClick={() => window.open(Whitepaper)}style={{ color: "grey" }} disabled>
             <ListItemText>About</ListItemText>
           </ListItemButton>
         </ListItem>
